@@ -3,14 +3,14 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
-class Login_home_screen extends StatefulWidget {
-  const Login_home_screen({Key? key}) : super(key: key);
+class login extends StatefulWidget {
+  const login({Key? key}) : super(key: key);
 
   @override
-  State<Login_home_screen> createState() => _Login_home_screenState();
+  State<login> createState() => _login_screenState();
 }
 
-class _Login_home_screenState extends State<Login_home_screen> {
+class _login_screenState extends State<login> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
