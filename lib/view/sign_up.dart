@@ -3,14 +3,14 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
-class Login_sign_in extends StatefulWidget {
-  const Login_sign_in({Key? key}) : super(key: key);
+class sign extends StatefulWidget {
+  const sign({Key? key}) : super(key: key);
 
   @override
-  State<Login_sign_in> createState() => _Login_sign_inState();
+  State<Login_sign_in> createState() => _sign_inState();
 }
 
-class _Login_sign_inState extends State<Login_sign_in> {
+class _sign_inState extends State<sign> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
